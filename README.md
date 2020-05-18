@@ -1,7 +1,6 @@
-# CEGO-assignment
-Assignment til CEGO's jobopslag til stillingen som studenterprogrammør
+# Javascript-Node-MySql integration
 
-Min løsning tager udgangspunkt i tabellen "users" fra opgavebeskrivelsens repo og er lavet ved brug af JavaScript, Node.js og MySQL.
+Min løsning tager udgangspunkt i tabellen "users" fra en simpel database og er lavet ved brug af JavaScript, Node.js og MySQL.
 
 Løsningen forbinder JavaScript filen til SQL databasen ved brug af Node.js's SQL modul.
 
@@ -9,4 +8,4 @@ Løsningen tilføjer en primary key til kolonnen "id" for at sikre data integrit
 Herefter henter den samtlige data fra tabellen og gemmer dem i .txt fil kaldet "Output".
 Til sidst slettes alt data fra tabellen. Dog eksisterer tabellen stadig, bare tom for data.
 
-Løsningen kan f.eks. testes i command-line ved fra filens directory at skrive: "node CEGO-assignment.js".
+Løsningen kan f.eks. testes i command-line ved fra filens directory at skrive: "node Assignment.js".
